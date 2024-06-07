@@ -15,7 +15,7 @@ body {
 }
 #cover {
   height: 100vh;
-  background-image:url('background.gif');
+  background-image: url("background.gif");
   background-size: 99.9% 99.5%;
   display: flex;
   flex-direction: column;
@@ -23,9 +23,9 @@ body {
   align-items: center;
   color: #fff;
 }
-#cover-egg{
+#cover-egg {
   height: 100vh;
-  background-image:url('egg-background.gif');
+  background-image: url("egg-background.gif");
   background-size: 99.9% 99.5%;
   display: flex;
   flex-direction: column;
@@ -66,13 +66,13 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 #egg-button {
-  background-color: transparent; 
-  border: none; 
-  width: 52px; 
-  height: 52px; 
-  position: relative; 
-  top: -28.9%; 
-  right: 23.7%; 
+  background-color: transparent;
+  border: none;
+  width: 52px;
+  height: 52px;
+  position: relative;
+  top: -10.9%;
+  right: 23.7%;
 }
 #scenario {
   margin-bottom: 100px;
