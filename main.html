@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>夢境深處</title>
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      #container {
+        display: none;
+      }
+      .hidden {
+        display: none;
+      }
+      .fade-in {
+        animation: fadeIn 1s;
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+    </style>
   </head>
   <body>
     <audio id="background-music" autoplay loop>
@@ -16,11 +31,12 @@
       <button id="start-button">進入遊戲</button>
       <button id="egg-button">1</button>
     </div>
-    <div id="container" style="display: none">
+    <div id="container">
       <div id="scenario"></div>
       <div id="narration"></div>
-      <div id="dialogue-container" style="display: none"></div>
-      <div id="dialogue" class="fade-in"></div>
+      <div id="dialogue-container">
+        <div id="dialogue" class="fade-in"></div>
+      </div>
       <div id="options"></div>
     </div>
     <script src="script.js"></script>
